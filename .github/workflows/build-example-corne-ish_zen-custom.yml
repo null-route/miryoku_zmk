@@ -9,6 +9,6 @@ jobs:
     secrets: inherit
     with:
       board: '["corne-ish_zen_left","corne-ish_zen_right"]'
-      alphas: qwerty
+      alphas: '["qwerty"]'
       kconfig: '["CONFIG_CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU=y"]'
       branches: '["manna-harbour/zmk/zen zmkfirmware/zmk/main"]'
